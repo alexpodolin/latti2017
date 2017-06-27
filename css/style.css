@@ -1,0 +1,25 @@
+html, body {
+	margin: 0 auto;	
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	position: relative;
+}
+.wrapper {		
+	width: 1280px;
+	margin: 0 auto;
+
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	background: transparent;	
+}
+a {
+	text-decoration: none; 
+	color: #000000;
+}
+.clearfix {
+    content: "";
+    display: block;
+}
