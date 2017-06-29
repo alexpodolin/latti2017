@@ -128,3 +128,78 @@ a {
 .header__contact_link:hover {
 	text-decoration: underline;
 }
+/*===Slider===============================================*/
+#header__slider {
+	display: block;
+	float: left;
+	margin:0 auto;
+	width: 1280px;
+	height: 500px;
+	position: relative;
+    box-sizing: border-box;
+	transition: all 0.5s ease-out;
+}
+#header__slider input[type="radio"] {
+	display:none;
+}
+label { 
+	cursor:pointer;
+}
+#header__slides {
+	width: 100%;
+	position: relative;
+	transition: all 0.5s ease-out;
+}
+#header__slides_container{
+	width:100%;
+	overflow:hidden;
+}
+.header__slide__container_inner {
+	width:500%;
+}
+.header__slide__container_inner figure {
+	width: 20%;
+	float: left;
+	margin: 0;
+}
+.header__slide__container_inner img {
+	width: 100%;
+}
+
+#header__slide_1:checked ~ #header__slides .header__slide__container_inner { margin-left:0; }
+#header__slide_2:checked ~ #header__slides .header__slide__container_inner { margin-left:-100%; }
+#header__slide_3:checked ~ #header__slides .header__slide__container_inner { margin-left:-200%; }
+#header__slide_4:checked ~ #header__slides .header__slide__container_inner { margin-left:-300%; }
+#header__slide_5:checked ~ #header__slides .header__slide__container_inner { margin-left:-400%; }
+
+#header__slider_commands {
+	margin: -25% 0 0 0;
+    width: 100%;
+    height: 50px;
+}
+
+#header__slide_1:checked ~ #header__slider_commands label:nth-child(2),
+#header__slide_2:checked ~ #header__slider_commands label:nth-child(3),
+#header__slide_3:checked ~ #header__slider_commandss label:nth-child(4),
+#header__slide_4:checked ~ #header__slider_commands label:nth-child(5),
+#header__slide_5:checked ~ #header__slider_commands label:nth-child(1) {
+	background: transparent url("img/next.png") no-repeat;
+	display: block;
+	float: right; 	
+	width: 35px;
+    height: 35px;
+
+}
+
+#header__slide_1:checked ~ #header__slider_commands label:nth-child(5),
+#header__slide_2:checked ~ #header__slider_commands label:nth-child(1),
+#header__slide_3:checked ~ #header__slider_commands label:nth-child(2),
+#header__slide_4:checked ~ #header__slider_commands label:nth-child(3),
+#header__slide_5:checked ~ #header__slider_commands label:nth-child(4){ 
+	background: transparent url("img/previous.png") no-repeat;
+	display: block;
+	float: left;	
+	width: 35px;
+    height: 35px;
+}
+/*========================================================*/
