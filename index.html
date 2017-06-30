@@ -29,10 +29,16 @@
 		<div class="header__logo"></div>
 
 		<div class="header__middle">
-
 			<div class="header__middle__icon">
-				<div class="header__middle__icon-addr"><span>г.Санкт-Петербург, Загородный пр., 24</span></div> 
-				<div class="header__middle__icon-vk"><span>Клуб любителей речных путешествий "Латти"</span></div>
+				<div class="header__middle__icon-block">
+					<a href="https://www.yandex.ru/maps/2/saint-petersburg/?mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D30.341343%2C59.925494%26spn%3D0.001%252C0.001%26text%3D%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D1%258F%252C%2B%25D0%25A1%25D0%25B0%25D0%25BD%25D0%25BA%25D1%2582-%25D0%259F%25D0%25B5%25D1%2582%25D0%25B5%25D1%2580%25D0%25B1%25D1%2583%25D1%2580%25D0%25B3%252C%2B%25D0%2597%25D0%25B0%25D0%25B3%25D0%25BE%25D1%2580%25D0%25BE%25D0%25B4%25D0%25BD%25D1%258B%25D0%25B9%2B%25D0%25BF%25D1%2580%25D0%25BE%25D1%2581%25D0%25BF%25D0%25B5%25D0%25BA%25D1%2582%252C%2B24%2B&ll=30.341335%2C59.925493&z=17" class="header__middle__icon-addr"></a>
+					<span class="header__middle__icon-addr_text">г.Санкт-Петербург, Загородный пр., 24</span>
+				</div>
+
+				<div class="header__middle__icon-block">
+					<a href="https://vk.com/club7533421" class="header__middle__icon-vk"></a>
+					<span class="header__middle__icon-vk_text">Клуб любителей речных путешествий "Латти"</span>
+				</div>
 				<div class="header__middle__bird"></div>
 			</div>		
 
@@ -97,27 +103,44 @@
 			</div>			
 		</section>	
 
-		<!-- <form id="header__site-search">
+		<form id="header__site-search">
 			<fieldset>
-				<input type="search" class="header__site-search-input">
+				<input type="search" id="header__site-search-input" placeholder="Поиск по сайту">
+				<label for="header__site-search-input"></label>
 				<button type="submit" form="header__site-search" class="header__search-icon"></button>
 			</fieldset>
-		</form> -->
+		</form>
 
-		<!-- <nav>
+		<nav class="header__nav">
 			<ul>
-				<li><a href="#">О компании</a></li>
-				<li><a href="#">Агенствам</a></li>
-				<li><a href="#">Каталог лучших круизов и туров</a></li>
-				<li><a href="#">Контакты</a></li>
+				<li>
+					<div class="header__nav_triangle-left"></div>
+					<a href="#" class="header__nav_link">О компании</a>
+					<div class="header__nav_triangle-right"></div>
+				</li>
+				<li>
+					<div class="header__nav_triangle-left"></div>
+					<a href="#" class="header__nav_link">Агенствам</a>
+					<div class="header__nav_triangle-right"></div>
+				</li>
+				<li>
+					<div class="header__nav_triangle-left"></div>
+					<a href="#" class="header__nav_link">Каталог лучших круизов и туров</a>
+					<div class="header__nav_triangle-right"></div>
+				</li>
+				<li>
+					<div class="header__nav_triangle-left"></div>
+					<a href="#" class="header__nav_link">Контакты</a>
+					<div class="header__nav_triangle-right"></div>
+				</li>
 			</ul>
-		</nav> -->	
+		</nav>	
 	</div>
 
-<!-- 	<div class="main">
-		<section>
+ 	<div class="main">
+		<section class="main__menu-bar">
 			<figure>
-				<img src="img/001.jpg" width="160" height="500" alt="Поиск круизов">
+				<img src="img/bar_01.png" width="" height="" alt="Поиск круизов">
 				<figcaption>
 					Поиск круизов
 
@@ -131,7 +154,7 @@
 			</figure>
 
 			<figure>
-				<img src="img/002.jpg" width="160" height="500" alt="Теплоходы">
+				<img src="img/bar_02.png" width="" height="" alt="Теплоходы">
 				<figcaption>
 					Теплоходы
 					<a href="#">описание расписание стоимость</a>
@@ -139,7 +162,7 @@
 			</figure>
 
 			<figure>
-				<img src="img/003.jpg" width="160" height="500" alt="Круизы по регионам">
+				<img src="img/bar_03.png" width="" height="" alt="Круизы по регионам">
 				<figcaption>
 					Круизы по регионам 
 					из СПб, из Москвы,
@@ -151,7 +174,7 @@
 			</figure>
 
 			<figure>
-				<img src="img/004.jpg" width="160" height="500" alt="Аренда теплоходов в СПБ">
+				<img src="img/bar_04.png" width="" height="" alt="Аренда теплоходов в СПБ">
 				<figcaption>
 					Аренда теплоходов в СПБ
 					<a href="#">круизный и прогулочный флот</a>
@@ -159,17 +182,17 @@
 			</figure>
 
 			<figure>
-				<img src="img/005.jpg" width="160" height="500" alt="Валаам, кижи, соловки">
+				<img src="img/bar_05.png" width="" height="" alt="Валаам, кижи, соловки">
 				<figcaption>Валаам, кижи, соловки</figcaption>
 			</figure>
 
 			<figure>
-				<img src="img/006.jpg" width="160" height="500" alt="Паром &laquo;Принцесса Анастасия&raquo;">
+				<img src="img/bar_06.png" width="" height="" alt="Паром &laquo;Принцесса Анастасия&raquo;">
 				<figcaption>Паром &laquo;Принцесса Анастасия&raquo;</figcaption>
 			</figure>			
 		</section>
 		
-		<article>
+		<!-- <article>
 			<h1>Речные круизы 2017, Россия (Санкт-Петербург)</h1>
 			<a href="#">Выберите свой круиз!</a>
 			<p>Круизный центр «ЛАТТИ»  предлагает Вам исчерпывающую информацию для правильного выбора Вашего идеального речного круиза. Воспользуйтесь нашей базой данных, где собраны все речные круизы и все теплоходы , представлены расписания движения, графики, описания и схемы судов, стоимости круизов по рекам и озерам России  в навигацию 2017 года  как из Санкт-Петербурга, так и из других городов по всем направлениям. Вам нужна помощь? Мы быстро и эффективно подберем для Вас речной круиз , учитывая все ваши потребности и пожелания.</p>
@@ -205,8 +228,7 @@
 
 			<div class="main__menu-advertisment_block">
 			</div>
-		</section>
-			
+		</section>			
 		
 
 		<article>
@@ -223,11 +245,11 @@
 			<p>В списке услуг компании «Латти» есть немало других интересных предложений. Какое из них лучше всего подойдет именно вам? Ответить на этот вопрос помогут наши менеджеры, располагающие полной информацией о маршрутах, особенностях судов, расположении кают, наличии билетов. Что касается последнего пункта в данном списке, рекомендуем бронировать билеты заранее — речные круизы становятся популярнее с каждым годом. Для того чтобы обеспечить себе уверенность в том, что путешествие точно состоится, лучше позаботиться о билетах заранее. Об остальном позаботится «Латти».</p>
 			<p>&laquo;Латти&raquo; — речные круизы в отличной компании.</p>
 		</article>
-
+ -->
 
 	</div>
 
-	<div class="footer">
+	<!-- <div class="footer">
 		<div class="footer__info">
 			<div>2017 &copy; Турфирма «ЛАТТИ», СПБ</div>
 			<div>
