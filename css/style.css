@@ -59,7 +59,7 @@ a:hover {
 .header__middle__icon {
 	display: block;
 	float: left;
-	width: 60%;
+	width: 58%;
 	height: 115px;
 	margin: 0 0 0 20px;
 }
@@ -79,7 +79,7 @@ a:hover {
 }
 .header__middle__icon-addr_text {
 	display: block;
-    padding: 4% 0 0 5%;
+    padding: 4.5% 0 0 5%;
 }
 .header__middle__icon-vk {
 	display: block;
@@ -93,7 +93,7 @@ a:hover {
 .header__middle__icon-vk_text {
 	display: inline-block;
     padding: 1.7% 0 0 1%;
-    width: 46%;
+    width: 48%;
 }
 .header__middle__bird {	
 	background: transparent url("../img/bird.png") no-repeat;
@@ -102,7 +102,7 @@ a:hover {
     height: 45px;
     content: "";
     position: absolute;
-    top: 5%;
+    top: 2.8%;
     left: 49%;
 }
 .header__contact {
@@ -113,7 +113,7 @@ a:hover {
     font-style: normal;
   	font-weight: 400;
   	color: #ffffff;
-  	width: 38%;
+  	width: 39%;
   	height: 115px;
 }
 .header__contact span {
@@ -299,7 +299,7 @@ label {
 	width: 100%;
 }
 .header__nav ul {		
-	margin: 0 5%;
+	margin: 0 4%;
 	padding: 0
 }
 .header__nav li {
@@ -316,18 +316,18 @@ label {
 	margin:0; 
 }
 .header__nav_triangle-left {
-    border-top: 20px solid transparent;
+    border-top: 22px solid transparent;
     border-left: 10px solid #fff;
-    border-bottom: 20px solid transparent;
+    border-bottom: 22px solid transparent;
     display: block;
     float: left;
     padding: 0 0 0 5px;
     cursor: default;
 }
 .header__nav_triangle-right {
-    border-top: 20px solid transparent;
+    border-top: 22px solid transparent;
     border-right: 10px solid #fff;
-    border-bottom: 20px solid transparent;
+    border-bottom: 22px solid transparent;
     display: block;
     float: right;
     padding: 0 5px 0 0;
@@ -476,7 +476,7 @@ label {
 	display: block;
     float: left;
     width: 50%;
-    margin: 3% 25%;
+    margin: 2% 25%;
 	font-size: 14px;
     line-height: 18px;
     font-style: normal;
@@ -493,7 +493,7 @@ label {
 	display: block;
     float: left;
     width: 90%;
-    height: 97px;
+    height: 95px;
     margin: 0 8%;
 	background: transparent url("../img/handwheel.png") no-repeat;
 	background-size: contain;
@@ -563,4 +563,82 @@ label {
     height: 45px;
     background: transparent url(../img/ship.png) no-repeat;
     background-size: contain;
+}
+.footer {
+	display: block;
+	float: left;
+	width: 100%;	
+    margin: 0 0 1% 0;
+}
+.footer__info {
+	display: block;
+	float: left;
+	margin: 2% 0 0 3%;
+	color: #008199;
+	font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+  	font-weight: 300;
+}
+.footer__info a {
+	color: #008199;
+	font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+  	font-weight: 300;
+}
+.footer__contacts {
+	display: block;
+	float: right;
+	width: 42%;
+}
+.footer__contacts address {
+	display: block;
+	float: right;
+	width: 100%;
+}
+.footer__contacts a  {
+  	font-size: 24px;
+    line-height: 32px;
+    font-style: normal;
+  	font-weight: 400;
+  	color: #00677A;
+}
+.footer__contacts p  {
+  	font-size: 24px;
+    line-height: 32px;
+    font-style: normal;
+  	font-weight: 400;
+  	color: #00677A;
+}
+.footer__contacts__icons-call  {
+	display: block;
+	float: left;
+	width: 5%;
+	height: 25px;
+	background: transparent url("../img/call.png") no-repeat;
+	background-size: contain;
+	margin: 4% 0 0 0;
+}
+.footer__contacts-call {
+	display: block;
+	margin: 4% 0 1% 6%;
+}
+.footer__contacts__icons-addr {
+	display: block;
+	float: left;
+	width: 5%;
+	height: 30px;
+	background: transparent url("../img/addr.png") no-repeat;
+	background-size: contain;
+}
+.footer__contacts-addr {
+	display: block;
+	float: left;
+    margin: 1% 0 0 0;
+	font-size: 24px;
+    line-height: 32px;
+    font-style: normal;
+  	font-weight: 400;
+  	color: #00677A;
 }
