@@ -201,22 +201,22 @@ label {
 #header__slide_3:checked ~ #header__slider_commands label:nth-child(4),
 #header__slide_4:checked ~ #header__slider_commands label:nth-child(5),
 #header__slide_5:checked ~ #header__slider_commands label:nth-child(1) {
-	background: transparent url("../img/next.png") no-repeat;
+	background: transparent url("../img/icon-right.png") no-repeat;
 	display: block;
 	float: right; 	
-	width: 35px;
-    height: 35px;
+	width: 20px;
+    height: 40px;
 }
 #header__slide_1:checked ~ #header__slider_commands label:nth-child(5),
 #header__slide_2:checked ~ #header__slider_commands label:nth-child(1),
 #header__slide_3:checked ~ #header__slider_commands label:nth-child(2),
 #header__slide_4:checked ~ #header__slider_commands label:nth-child(3),
 #header__slide_5:checked ~ #header__slider_commands label:nth-child(4){ 
-	background: transparent url("../img/previous.png") no-repeat;
+	background: transparent url("../img/icon-left.png") no-repeat;
 	display: block;
 	float: left;	
-	width: 35px;
-    height: 35px;
+	width: 20px;
+    height: 40px;
 }
 #header__slide_1:checked ~ #header__slider_active label:nth-child(1),
 #header__slide_2:checked ~ #header__slider_active label:nth-child(2),
@@ -299,7 +299,7 @@ label {
 	width: 100%;
 }
 .header__nav ul {		
-	margin: 0 4%;
+	margin: 0 8%;
 	padding: 0
 }
 .header__nav li {
@@ -313,7 +313,7 @@ label {
 	box-sizing: border-box;
 }
 .header__nav li:first-child {
-	margin:0; 
+	margin: 0 1% 0 0;
 }
 .header__nav_triangle-left {
     border-top: 22px solid transparent;
@@ -335,13 +335,14 @@ label {
 }
 .header__nav_link {
 	color: #ffffff;
-	font-size: 32px;
-    line-height: 40px;
+	font-size: 28px;
+    line-height: 42px;
     font-style: normal;
   	font-weight: 300; 
   	text-align: center;
   	vertical-align: super;
   	display: inline-block;
+  	padding: 0 5px;
 }
 
 .main {
@@ -385,6 +386,11 @@ label {
   	color: #ffffff;
   	text-align: center;
   	text-transform: uppercase;
+}
+.main__menu-bar-h {
+	width: 98%;
+	margin: 0;
+    padding: 0;
 }
 #main__cruise-search {
 	display: block;
@@ -520,7 +526,8 @@ label {
   	font-weight: 300;
 }
 .main__about-latti__link {
-	color: #E6745F;
+/*	color: #E6745F;*/
+	color: #285473;
 	text-decoration: underline;
 }
 
