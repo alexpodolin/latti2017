@@ -135,7 +135,7 @@ a:hover {
 #header__slider {
 	display: block;
 	float: left;
-	margin:0 auto;
+	margin:-1px auto;
 	max-width: 1280px;
 	height: 500px;
 	position: relative;
@@ -299,7 +299,7 @@ label {
 	width: 100%;
 }
 .header__nav ul {		
-	margin: 0 8%;
+	margin: 0 7.5%;
 	padding: 0
 }
 .header__nav li {
@@ -372,7 +372,7 @@ label {
 }
 .main__menu-bar img {
 	width: 100%;
-	height: 100%;
+	/*height: 100%;*/
 	object-fit: contain;
 }
 .main__menu-bar figcaption {
@@ -469,6 +469,9 @@ label {
   	padding: 0 3%;
   	text-transform: initial;
  }
+.main__menu-bar__header-link {
+	color: #ffffff;
+}
 .main__menu-bar__triangle {
 	display: block;
     float: left;
@@ -484,7 +487,7 @@ label {
     width: 50%;
     margin: 2% 25%;
 	font-size: 14px;
-    line-height: 18px;
+    line-height: 17px;
     font-style: normal;
   	font-weight: 400;
   	text-transform: initial;
@@ -551,7 +554,12 @@ label {
 }
 .main__menu-advertisment_block img {
 	width: 100%;
+	border:	none;
 }
+.main__menu-advertisment_block img { 
+	margin: 2px 0 0 0;
+}
+
 .main__menu-advertisment_block figcaption {	
 	color: #ffffff;
 	font-size: 18px;
@@ -560,7 +568,7 @@ label {
   	font-weight: 300;
   	position: absolute;  	
   	width: 100%;
-  	margin: 2% 0;
+  	margin: 3% 0;
   	text-align: center;
   	text-transform: uppercase;
 }
@@ -568,7 +576,7 @@ label {
 	color: #ffffff;
 }
 .main__menu-advertisment_block-mini figcaption {
-	margin: 4% 0;
+	margin: 4.5% 0;
 }
 .main__menu-advertisment_block-mini a {
 	color: #ffffff;
