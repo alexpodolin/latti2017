@@ -378,7 +378,7 @@ label {
 	/*height: 100%;*/
 	object-fit: contain;
 }
-.main__menu-bar figcaption {
+/*.main__menu-bar figcaption {
 	width: 100%;
 	position: absolute;
     top: 69%;
@@ -389,8 +389,8 @@ label {
   	color: #ffffff;
   	text-align: center;
   	text-transform: uppercase;
-}
-.main__menu-bar-h {
+}*/
+/*.main__menu-bar-h {
 	width: 98%;
 	margin: 0;
     padding: 0;
@@ -495,13 +495,12 @@ label {
   	font-weight: 400;
   	text-transform: initial;
   	color: #008199;
-}
+}*/
 /*.main__menu-bar__link-ferry {
 	width: 100%;
   	color: #ffffff;
 }*/
-
-.main__menu-bar__handwheel {
+/*.main__menu-bar__handwheel {
 	display: block;
     float: left;
     width: 90%;
@@ -510,7 +509,7 @@ label {
 	background: transparent url("../img/handwheel.png") no-repeat;
 	background-size: contain;
 	cursor: pointer;
-}
+}*/
 .main__about-latti {
 	display: block;
 	float: left;
