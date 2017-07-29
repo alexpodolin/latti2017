@@ -12,8 +12,8 @@ a {
 	color: #000000;
 }
 a:hover {
-	opacity: 0.5;
-	transition: all 0.5s ease-out; 
+	opacity: 0.7;
+	transition: all 0.2s ease-out; 
 }
 .clearfix {
     content: "";
@@ -51,7 +51,8 @@ a:hover {
 .header__middle {
 	width: 79%;
 	height: 115px;
-	float: left;
+	/*float: left;*/
+	float: right;
 	background: linear-gradient(to left, #06829A, #ffffff 60%, #ffffff);
 	background: -webkit-linear-gradient(to left, #06829A, #ffffff 60%, #ffffff);
     background: -moz-linear-gradient(to left, #06829A, #ffffff 60%, #ffffff);
@@ -179,10 +180,10 @@ label {
 }
 #header__slider_commands label {
 	display: none; 
-	opacity: 0.5;
+	opacity: 0.7;
 }
 #header__slider_commands label:hover { 
-	opacity: 0.8;
+	opacity: 0.7;
 }
 #header__slider_active { 
 	position: relative;
@@ -227,7 +228,7 @@ label {
 #header__slide_4:checked ~ #header__slider_active label:nth-child(4),
 #header__slide_5:checked ~ #header__slider_active label:nth-child(5) {
 	background-color: #00677A;
-	opacity: 0.6;
+	opacity: 0.7;
 }
 
 #header__slider_active label:hover {
@@ -293,8 +294,8 @@ label {
 	cursor: pointer;
 }
 .header__search-icon:hover {
-	opacity: 0.8;
-	transition: all 0.5s ease-out; 
+	opacity: 0.7;
+	transition: all 0.2s ease-out; 
 }
 .header__nav {
 	display: block;
@@ -575,8 +576,8 @@ label {
 	margin: 2px 0 0 0;
 }
 .main__menu-advertisment_block-mini:hover {
-	opacity: 0.58;
-	transition: all 0.5s ease-out; 
+	opacity: 0.7;
+	transition: all 0.2s ease-out; 
 }
 /*.main__menu-advertisment_block a {	
 	color: #ffffff;
