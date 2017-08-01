@@ -7,6 +7,10 @@ html, body {
 	position: relative;
 	box-sizing: border-box;
 }
+#vk_groups {
+float: right;
+margin-top: 30px;
+}
 a {
 	text-decoration: none; 
 	color: #000000;
@@ -835,7 +839,7 @@ label {
 .footer__info {
 	display: block;
 	float: left;
-	margin: 2% 0 0 3%;
+	margin: 2% 20px 0 0;
 	color: #008199;
 	font-size: 12px;
     line-height: 18px;
@@ -851,12 +855,10 @@ label {
 }
 .footer__contacts {
 	display: block;
-	float: right;
-	width: 42%;
+	width: 260px;
 }
 .footer__contacts address {
 	display: block;
-	float: right;
 	width: 100%;
 }
 .footer__contacts a  {
@@ -876,7 +878,7 @@ label {
 .footer__contacts__icons-call  {
 	display: block;
 	float: left;
-	width: 5%;
+	width: 12%;
 	height: 25px;
 	background: transparent url("../img/call.png") no-repeat;
 	background-size: contain;
@@ -884,7 +886,7 @@ label {
 }
 .footer__contacts-call {
 	display: block;
-	margin: 4% 0 1% 6%;
+	margin: 4% 0 1% 12%;
 }
 .footer__contacts__icons-addr {
 	display: block;
@@ -897,7 +899,7 @@ label {
 .footer__contacts-addr {
 	display: block;
 	float: left;
-    margin: 1% 0 0 6%;
+    margin: 1% 0 0 12%;
 	font-size: 24px;
     line-height: 32px;
     font-style: normal;
