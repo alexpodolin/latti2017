@@ -80,16 +80,13 @@
 <div class="wrapper" itemscope itemtype="http://schema.org/TravelAgency">
 	<div class="header">
 		<div class="header__logo" itemprop="image" itemscope itemtype="http://schema.org/ImageObject" >
-			<img src="">
-			<meta itemprop="url" content="http://new.latti.ru/img/logo.png"/>
-			<meta itemprop="width" content="250">
-    		<meta itemprop="height" content="115">
+			<img src="" itemprop="url" content="http://new.latti.ru/img/logo.png">
 		</div>
 		<div class="header__middle">
 			<div class="header__middle__icon">
 				<div class="header__middle__icon-block" itemscope itemtype="http://schema.org/PostalAddress">
 					<a href="https://www.yandex.ru/maps/2/saint-petersburg/?mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D30.341343%2C59.925494%26spn%3D0.001%252C0.001%26text%3D%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D1%258F%252C%2B%25D0%25A1%25D0%25B0%25D0%25BD%25D0%25BA%25D1%2582-%25D0%259F%25D0%25B5%25D1%2582%25D0%25B5%25D1%2580%25D0%25B1%25D1%2583%25D1%2580%25D0%25B3%252C%2B%25D0%2597%25D0%25B0%25D0%25B3%25D0%25BE%25D1%2580%25D0%25BE%25D0%25B4%25D0%25BD%25D1%258B%25D0%25B9%2B%25D0%25BF%25D1%2580%25D0%25BE%25D1%2581%25D0%25BF%25D0%25B5%25D0%25BA%25D1%2582%252C%2B24%2B&ll=30.341335%2C59.925493&z=17" target="_blank" class="header__middle__icon-addr">
-					<span class="header__middle__icon-addr_text" itemprop="streetAddress">г.Санкт-Петербург, Загородный пр., 24</span>
+					<span class="header__middle__icon-addr_text" itemprop="streetAddress"><span itemprop="addressLocality">г.Санкт-Петербург</span><span>, Загородный пр., 24</span>
 					</a>
 				</div>
 
@@ -170,26 +167,26 @@
 			</fieldset>
 		</form>
 
-		<nav class="header__nav">
+		<nav class="header__nav" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
 			<ul>
-				<li>
+				<li itemprop="name">
 					<div class="header__nav_triangle-left"></div>
-					<a href="#" class="header__nav_link">О компании</a>
+					<a href="#" class="header__nav_link" itemprop="url">О компании</a>
 					<div class="header__nav_triangle-right"></div>
 				</li>
-				<li>
+				<li itemprop="name">
 					<div class="header__nav_triangle-left"></div>
-					<a href="#" class="header__nav_link">Агенствам</a>
+					<a href="#" class="header__nav_link" itemprop="url">Агенствам</a>
+					<div class="header__nav_triangle-right"></div>
+				</li itemprop="name">
+				<li itemprop="name">
+					<div class="header__nav_triangle-left"></div>
+					<a href="#" class="header__nav_link" itemprop="url">Каталог лучших круизов и туров</a>
 					<div class="header__nav_triangle-right"></div>
 				</li>
-				<li>
+				<li itemprop="name">
 					<div class="header__nav_triangle-left"></div>
-					<a href="#" class="header__nav_link">Каталог лучших круизов и туров</a>
-					<div class="header__nav_triangle-right"></div>
-				</li>
-				<li>
-					<div class="header__nav_triangle-left"></div>
-					<a href="#" class="header__nav_link">Контакты</a>
+					<a href="#" class="header__nav_link" itemprop="url">Контакты</a>
 					<div class="header__nav_triangle-right"></div>
 				</li>
 			</ul>
@@ -286,16 +283,16 @@
 				<figcaption>Новости</figcaption>
 				<img src="img/news.png" alt="Новости">				
 
-				<nav class="main__menu-advertisment-news">
+				<nav class="main__menu-advertisment-news" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
 					<ul>
 						<li>
 							<p>20.04.2017</p>
-							<a href="#">Скидка 25% на теплоход "В.Маяковский" при оплате до 28.04.17<!-- далее... --></a>
+							<a href="#" itemprop="url">Скидка 25% на теплоход "В.Маяковский" при оплате до 28.04.17<!-- далее... --></a>
 						</li>
 
 						<li>
 							<p>20.04.2017</p>
-							<a href="#">Скидка 25% на теплоход "В.Маяковский" при оплате до 28.04.17<!-- далее... --></a>
+							<a href="#" itemprop="url">Скидка 25% на теплоход "В.Маяковский" при оплате до 28.04.17<!-- далее... --></a>
 						</li>
 					</ul>
 				</nav>
