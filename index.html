@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns# 
               fb: http://ogp.me/ns/fb# 
-              business: http://ogp.me/ns/business#"
+              business: http://ogp.me/ns/business#
+              place: http://ogp.me/ns/place#"
 			  lang="ru">
 <head>
 	<title>Речные и морские круизы</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="туры, путешествия">		
-	<meta name="description" content="агенство туристических услуг">
+	<meta name="description" content="Латти - агенство туристических услуг">
 	<meta name="revisit-after" content="15 days">
 	<meta name="robots" content="all">
 	<meta name="author" content="Александр Подолин, alex.podolin@gmail.com">
@@ -46,7 +47,6 @@
     <!-- <meta property="fb:app_id" content="1234567980"/> --> <!--Раскомментировать и Поправить-->
     <meta property="fb:admins" content="alex.podolin"/><!--Поправить-->	
     <meta property="fb:profile_id" content="alex.podolin"/><!--Поправить-->
-
     <meta property="business:contact_data:street_address" content="Загородный проспект 24"/> 
   	<meta property="business:contact_data:locality" content="Санкт-Петербург"/> 
   	<meta property="business:contact_data:region" content="Ленинградская область"/> 
@@ -66,7 +66,6 @@
 	<meta property="business:hours:end" content="19:00:00"/><!--Поправить-->
 	<meta property="place:location:latitude" content="30.341335"/> 
 	<meta property="place:location:longitude" content="59.925493"/>
-
 	<meta name="twitter:card" content="summary"/>
 	<meta name="twitter:site" content="@latti_spb"/> 
 	<meta name="twitter:site:id" content="1327632950"/> 
@@ -78,14 +77,19 @@
 	<meta name="twitter:image:alt" content="Турфирма Латти морские речные круизы"/>
 </head>
 <body>
-<div class="wrapper">
+<div class="wrapper" itemscope itemtype="http://schema.org/TravelAgency">
 	<div class="header">
-		<div class="header__logo"></div>
+		<div class="header__logo" itemprop="image" itemscope itemtype="http://schema.org/ImageObject" >
+			<img src="">
+			<meta itemprop="url" content="http://new.latti.ru/img/logo.png"/>
+			<meta itemprop="width" content="250">
+    		<meta itemprop="height" content="115">
+		</div>
 		<div class="header__middle">
 			<div class="header__middle__icon">
-				<div class="header__middle__icon-block">
+				<div class="header__middle__icon-block" itemscope itemtype="http://schema.org/PostalAddress">
 					<a href="https://www.yandex.ru/maps/2/saint-petersburg/?mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D30.341343%2C59.925494%26spn%3D0.001%252C0.001%26text%3D%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D1%258F%252C%2B%25D0%25A1%25D0%25B0%25D0%25BD%25D0%25BA%25D1%2582-%25D0%259F%25D0%25B5%25D1%2582%25D0%25B5%25D1%2580%25D0%25B1%25D1%2583%25D1%2580%25D0%25B3%252C%2B%25D0%2597%25D0%25B0%25D0%25B3%25D0%25BE%25D1%2580%25D0%25BE%25D0%25B4%25D0%25BD%25D1%258B%25D0%25B9%2B%25D0%25BF%25D1%2580%25D0%25BE%25D1%2581%25D0%25BF%25D0%25B5%25D0%25BA%25D1%2582%252C%2B24%2B&ll=30.341335%2C59.925493&z=17" target="_blank" class="header__middle__icon-addr">
-					<span class="header__middle__icon-addr_text">г.Санкт-Петербург, Загородный пр., 24</span>
+					<span class="header__middle__icon-addr_text" itemprop="streetAddress">г.Санкт-Петербург, Загородный пр., 24</span>
 					</a>
 				</div>
 
@@ -100,10 +104,10 @@
 			<address class="header__contact">
 				<span>Наши телефоны:</span>
 				<div class="header__contact_block">
-					<a href="tel:+78123150687" class="header__contact_link">(812)315-06-87</a>
-					<a href="tel:+78123159746" class="header__contact_link">(812)315-97-46</a>
-					<a href="tel:+78127124629" class="header__contact_link">(812)712-46-29</a>
-					<a href="tel:+78125758904" class="header__contact_link">(812)575-89-04</a>
+					<a href="tel:+78123150687" class="header__contact_link" itemprop="telephone" content="+78123150687">(812)315-06-87</a>
+					<a href="tel:+78123159746" class="header__contact_link" itemprop="telephone" content="+78123159746">(812)315-97-46</a>
+					<a href="tel:+78127124629" class="header__contact_link" itemprop="telephone" content="+78127124629">(812)712-46-29</a>
+					<a href="tel:+78125758904" class="header__contact_link" itemprop="telephone" content="+78125758904">(812)575-89-04</a>
 				</div>
 			</address>
 		</div>
@@ -345,7 +349,7 @@
 		</section>		
 
 		<article class="main__about-crouise">			
-			<h2>Речные круизы с компанией Латти</h2>
+			<h2>Речные круизы с компанией <span itemprop="name">Латти</span></h2>
 			<div class="main__about-crouise__container">
 				<p>Есть в мире вещи, которые обязательно нужно сделать хотя бы раз в жизни, в том числе - совершить <a href="#" class="main__about-latti__link"><strong>речной круиз!</strong></a></p>
 				<p>Речные круизы как вид отдыха не похож ни на что другое. Круизный теплоход в качестве средства передвижения не выбирают те, кто хочет как можно быстрее добраться до места проведения отпуска. Круизный теплоход является местом отдыха сам по себе! А вот декорации вокруг него неспешно меняются по мере перемещения от одного причала до другого.</p>
@@ -385,7 +389,7 @@
 					</div>	
 
 					<a href="https://www.yandex.ru/maps/2/saint-petersburg/?mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D30.341343%2C59.925494%26spn%3D0.001%252C0.001%26text%3D%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D1%258F%252C%2B%25D0%25A1%25D0%25B0%25D0%25BD%25D0%25BA%25D1%2582-%25D0%259F%25D0%25B5%25D1%2582%25D0%25B5%25D1%2580%25D0%25B1%25D1%2583%25D1%2580%25D0%25B3%252C%2B%25D0%2597%25D0%25B0%25D0%25B3%25D0%25BE%25D1%2580%25D0%25BE%25D0%25B4%25D0%25BD%25D1%258B%25D0%25B9%2B%25D0%25BF%25D1%2580%25D0%25BE%25D1%2581%25D0%25BF%25D0%25B5%25D0%25BA%25D1%2582%252C%2B24%2B&ll=30.341335%2C59.925493&z=17" target="_blank" class="footer__contacts__icons-addr">
-					<span class="footer__contacts-addr">Санкт-Петербург, Загородный пр., 24</span>
+					<span class="footer__contacts-addr" itemprop="address">Санкт-Петербург, Загородный пр., 24</span>
 					</a>
 				</address>			
 			</div>
