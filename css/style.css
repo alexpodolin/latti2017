@@ -84,7 +84,7 @@ a:hover {
 }
 .header__middle__icon-addr_text {
 	display: block;
-    padding: 1.7% 0 0 7.5%;
+    padding: 1.7% 0 0 7%;
     float: left;
     color: #00677A;
 }
@@ -127,7 +127,7 @@ a:hover {
 .header__contact span {
 	display: block;
     float: left;
-    margin: 6% 0 0 44.5%;
+    margin: 6% 0 0 47.5%;
 }
 .header__contact_block {
 	display: block;
@@ -219,7 +219,7 @@ label {
 #header__slide_2:checked ~ #header__slider_commands label:nth-child(1),
 #header__slide_3:checked ~ #header__slider_commands label:nth-child(2),
 #header__slide_4:checked ~ #header__slider_commands label:nth-child(3),
-#header__slide_5:checked ~ #header__slider_commands label:nth-child(4){ 
+#header__slide_5:checked ~ #header__slider_commands label:nth-child(4) { 
 	background: transparent url("../img/icon-left.png") no-repeat;
 	display: block;
 	float: left;	
