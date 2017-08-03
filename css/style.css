@@ -100,7 +100,7 @@ a:hover {
 .header__middle__icon-vk_text {
 	display: inline-block;
     padding: 0 0 0 7%;
-    width: 47%;
+    width: 48%;
     color: #00677A;
 }
 .header__middle__bird {	
@@ -127,7 +127,7 @@ a:hover {
 .header__contact span {
 	display: block;
     float: left;
-    margin: 6% 0 0 47.5%;
+    margin: 6% 0 0 44.5%;
 }
 .header__contact_block {
 	display: block;
@@ -307,7 +307,7 @@ label {
 	width: 100%;
 }
 .header__nav ul {		
-	margin: 0 7.5%;
+	margin: 0 7%;
 	padding: 0
 }
 .header__nav li {
@@ -839,7 +839,7 @@ label {
 .footer__info {
 	display: block;
 	float: left;
-	margin: 2% 20px 0 0;
+	margin: 2% 20px 30px 0;
 	color: #008199;
 	font-size: 12px;
     line-height: 18px;
