@@ -630,7 +630,7 @@ label {
 	color: #ffffff;
 	/*text-decoration: underline;*/
 }
-.main__menu-advertisment__tape {
+/*.main__menu-advertisment__tape {
 	position: absolute;
 	content: "";
 	background: transparent url("../img/menu_tape.png") no-repeat;
@@ -639,7 +639,7 @@ label {
 	height: 95px;
 	top: 45%;
 	left: 3%;
-}
+}*/
 /*.main__menu-advertisment__tape a {
 	display: block;
 	width: 80%;
@@ -651,7 +651,7 @@ label {
   	font-weight: 300;
   	text-align: center;
 }*/
-.main__menu-advertisment__tape span {
+/*.main__menu-advertisment__tape span {
 	display: block;
 	width: 80%;
 	margin: 2% 11%;
@@ -668,7 +668,7 @@ label {
 	float: left;
 	width: 100%;
 	top: 73%;
-}
+}*/
 /*.main__menu-advertisment__link a {
 	display: block;
 	float: left;
