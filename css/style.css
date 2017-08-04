@@ -839,7 +839,7 @@ label {
 .footer__info {
 	display: block;
 	float: left;
-	margin: 2% 20px 30px 0;
+	margin: 1% 20px 30px 5px;
 	color: #008199;
 	font-size: 12px;
     line-height: 18px;
