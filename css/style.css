@@ -600,12 +600,35 @@ label {
 	color: #ffffff;
 	padding: 0 0.5% 0 0.5%;
 }*/
+
+
 .main__menu-advertisment-news {
 	position: absolute;
 	display: block;
 	width: 100%;
 	top: 50%;
+	height: 150px;
+	overflow-y: scroll;
 }
+.main__menu-advertisment-news::-webkit-scrollbar {
+	width: 7px;
+	height: 10px;
+	cursor: pointer;
+}
+.main__menu-advertisment-news::-webkit-scrollbar-track-piece {
+	background: silver;
+}
+.main__menu-advertisment-news::-webkit-scrollbar-thumb:vertical {
+	cursor: pointer;
+	height: 5px;
+	background-color: #006576;
+}
+.main__menu-advertisment-news::-webkit-scrollbar-thumb:vertical:hover {
+	background-color: #00546B;
+}
+
+
+
 .main__menu-advertisment-news ul {
 	display: block;
 	float: left;
