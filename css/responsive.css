@@ -10,6 +10,7 @@ html, body { font-size: 0.875em; line-height: 1.125em; }
 .header__contact_block { margin: 0 0 0 7%; }
 #header__slider { width: 100%; height: 445px; }
 .header__slide__container_inner img { width: 997px; height: 445px; }
+.header__slider-text { font-size: 18px; }
 #header__slider_commands { margin: -25% -2% 0 2%; }
 #header__site-search-input { font-size: 0.777em; }
 .header__search-icon { top: 31%; right: 2.5%; }
@@ -73,6 +74,7 @@ html, body { font-size: 0.875em; line-height: 1.125em; }
 .header__contact_link { padding: 0 5px 0 0; }
 #header__slider { height: 335px; }
 .header__slide__container_inner img { width: 773px; height: 335px; }
+.header__slider-text { font-size: 14px; }
 #header__site-search-input { font-size: 0.72em; }
 .header__search-icon { top: 32%; right: 3%; width: 25px; height: 25px; }
 .header__nav_link { line-height: 2em; padding: 0 0px; }
